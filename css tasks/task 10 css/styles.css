@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Resetting default margin and padding for the list */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the menu container */
+.main {
+    width: 50%;
+    height: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px solid#000;
+   background-color: rgb(196, 255, 228);
+}
+.main .menu {
+    width: 200px;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Style for navigation items */
+.nav-item {
+    display: block;
+    text-align: left;
+    color: rgb(43, 43, 223);
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+    margin-bottom: 10px; /* Add space between items */
+    background-color: beige;
+    width: 100px;
+    height: 20px;
+    padding: 10 10 0 10px;
+}
+
+/* Change color to white and background to black on hover */
+.nav-item:hover {
+    color: rgb(191, 37, 37);
+    text-decoration: underline;
+}

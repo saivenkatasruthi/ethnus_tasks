@@ -1,0 +1,22 @@
+/* CSS code */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}

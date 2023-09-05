@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Resetting default margin and padding for the page */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/* Style for the profile picture */
+.profile-pic {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.form img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+        border: 2px solid #ccc;
+        border-radius: 5px; /* Add rounded corners */
+        max-width: 100%; /* Ensure the image doesn't exceed its container width */
+        height: auto; /* Maintain the image's aspect ratio */
+        display: block; /* Remove any extra spacing around the image */
+        margin: 0 auto; /* Center the image horizontally */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow to the image */
+    }
+
+
+/* Style for the form */
+.form {
+    background-color: #fff;
+    padding: 60px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 0px auto;
+    height: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Style for form elements */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style for the login button */
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #007f00;
+}
+
+/* Style for the options section */
+.options {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cancel-button,
+.forgot-password {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    color: #000;
+}
+
+.forgot-password {
+    color: blue;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}

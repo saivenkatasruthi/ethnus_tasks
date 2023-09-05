@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Style for the container div */
+.table-box {
+    width: 70%; /* Set the width of the box */
+    margin: 0 auto; /* Center the box horizontally on the page */
+    padding: 20px; /* Add some padding to the box */
+    background-color: #67e0bf; /* Background color for the container */
+    border-radius:  10px; /* Add rounded corners to the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow to the box */
+    border: 2px solid#000;
+}
+
+
+
+.bordertd {
+    border-radius:10 30%;
+    padding:20px;
+    width:300px;
+    height:10px;
+    border-color: #000;
+    border: 2px solid#000;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0 10 10 0px;
+
+
+}
+.borderth {
+    border-radius:10 30%;
+    padding:20px;
+    width:300px;
+    height:10px;
+    border-color: #000;
+    border: 2px solid#000;
+    border-radius: 10px;
+    text-align: center;
+
+}

@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Resetting default margin and padding for the list */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar container */
+.navbar {
+    background-color:#8fd7f6; /* Dark background color */
+    width: 200px; /* Width of the navbar */
+    height: 150px;
+    padding: 20px; /* Padding at the top and bottom */
+    text-align: left; /* Center-align text */
+    border: 2px solid#000;
+    margin: 10px; 
+
+}
+
+/* Style for the navigation bar heading */
+.navbar h1, .hnavbar h1 {
+    color: white;
+}
+
+/* Style for navigation bar links */
+.navbar ul, .hnavbar ul  {
+    list-style-type:none;
+    padding: 20px;
+    border: 2px solid#000;
+    margin: 10px;
+
+}
+
+.navbar li, .hnavbar li {
+    margin: 5px 0;
+    display: block;
+}
+.navbar li a {
+    margin: 5px 0;
+    color: #0074D9;
+    font-size:20px;
+
+}
+.navbar li a:hover{
+    background-color: #f59724; /* Orange color for selected link */
+    color: #fff;
+    
+}
+
+.navbar a {
+    display: block;
+    color: #0074D9; /* Blue color for non-selected links */
+    text-decoration: none;
+}
+
+/* Style for the selected (active) link */
+
+
+.hnavbar {
+    background-color: rgb(230, 235, 235);
+    width: 60%;
+    border: 2px solid#000;
+    margin: 20px;
+    padding: 20px;  
+    text-align: center;
+}
+
+
+
+
+.hnavbar li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding: 10px 0px 0px 0px;
+    
+}
+
+
+
+.hnavbar ul li {
+  
+border-right: 2px solid#000;
+width: 1px;
+height: 5px;
+}
+
+
+
+
+.hnavbar li a {
+    margin: 10px;
+    color: #0074D9;
+    font-size:20px;
+
+}
+.hnavbar li a:hover{
+    background-color: #8e8c88; /* Orange color for selected link */
+    color: #fff;
+    
+}
+
+.hnavbar a {
+    color: #0074D9; /* Blue color for non-selected links */
+    text-decoration: none;
+}
+
